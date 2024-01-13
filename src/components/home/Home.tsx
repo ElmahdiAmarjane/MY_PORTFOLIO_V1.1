@@ -1,44 +1,11 @@
 // home.tsx
-
-import { random } from 'gsap';
 import './home.scss';
-import { useEffect, useState } from 'react';
-
-interface Position {
-  x: number;
-  y: number;
-}
-
-const getRandomPosition = (maxWidth: number, maxHeight: number): Position => {
-  const x = Math.random() * maxWidth;
-  const y = Math.random() * maxHeight;
-  return { x, y };
-};
-
-const Home: React.FC = () => {
-  const numberOfDivs = 20;
-  const [positions, setPositions] = useState<Position[]>([]);
-  useEffect(() => {
-   const moveDivs = () => {
-     setPositions(
-       new Array(numberOfDivs).fill(null).map(() => getRandomPosition(window.innerWidth - 180, window.innerHeight - 100))
-     );
-   };
-
-    const interval = setInterval(moveDivs,200); // Adjust time as needed
-     return () => clearInterval(interval);
- }, []);
-
- 
-
+const Home=()=>{
+  
   return (
     <div className="homecontainerdiv">
       <div className="cardbg">
-        {positions.map((pos, index) => (
-          <div key={index} className="movingDiv" style={{ left: `${pos.x}px`, top: `${pos.y}px` }}>
-            {/* Content of div */}
-          </div>
-        ))}
+         <video src="./src/assets/videos/backblue.mp4" autoPlay  loop ></video>
       </div>
 
       <div className="myname">
@@ -47,7 +14,7 @@ const Home: React.FC = () => {
           <h1 id="h1_2">AMARJANE&nbsp;ELMAHDI</h1>
         </div>
       </div>
-      <h4 id="developpertext">&lt; WEB DEVELOPER /&gt;</h4>
+      <h4 id="developpertext"><span>&lt;</span>WEB DEVELOPER<span>/&gt;</span></h4>
     </div>
   );
 };

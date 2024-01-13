@@ -1,45 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Caprasimo&family=Orbitron:wght@400..900&family=Rubik+Mono+One&display=swap');
 .homecontainerdiv{
      box-sizing: border-box;
      width: 90%;
      height: 100%;
      position: absolute;
-     .cardbg{
+    video{
       width: 100%;
         height: 100%;
+        object-fit: cover;
         position: absolute;
-        background-color: #000000;
-        &.scroll-to-top {
-          transform: translateY(-100%); /* Move the container to the top */
-          transition: transform 1s ease; /* Add a smooth transition effect */
-        }
-        .movingDiv {
-          border-top: #dfdf2f 1px solid;
-          border-bottom: #3c98d2 1px solid   ;
-          // border: #2fdfdc 1px solid;
-          position: absolute;
-         
-    
-          width: 50px;  // Adjust size as needed
-          height: 50px; // Adjust size as needed
-          transition: top 10s, left 10s; // Smooth transition for moving effect
-             &:hover{
-                border: #2fdfdc 1px solid;
-          
-             }
-        }
+        filter: blur(1px);
         
-        
-        
-        
-          
-      
     }
     #developpertext{
-        color: #2fdfdc;
+        color: black;
+        -webkit-text-stroke: 1px yellow;
         position: relative;
-        top: 130px;
+        top: 140px;
         text-align: center;
-        text-shadow: 1px 2px 5px #ffffff;
+        font-family: "Rubik Mono One", monospace;
+         font-weight: 400;
+         font-style: normal;
+         span{
+            color: yellow;
+            -webkit-text-stroke: 0px;
+         }
+        
     }
    
 }
@@ -54,21 +40,25 @@
     justify-content: center;
   }
   .myname div h1 {
-     font-size: 60px;
-     font-weight: 900;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
      position: absolute;
     
   }
   
   .myname #h1_1 {
     color: transparent;
-    -webkit-text-stroke: 1px #0b77aa;
+    -webkit-text-stroke: 1px #f8f8f8;
+    letter-spacing: 4px;
+
   }
   
   .myname #h1_2 {
-    color: #ffffff;
+    color: #16c2d8;
+    -webkit-text-stroke: 1px #16c2d8;
     animation: animate 4s ease-in-out infinite;
-    
+    letter-spacing: 4px;
   }
   
   @keyframes animate {

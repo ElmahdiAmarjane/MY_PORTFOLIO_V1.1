@@ -1,4 +1,3 @@
-import React, { useRef, useEffect } from "react";
 import "./slidebar.scss";
 import 'bootstrap/dist/css/bootstrap.css'
 
