@@ -1,5 +1,6 @@
 import './App.scss'
 import Myprojects from './components/Myprojects/Myprojects';
+import Career from './components/career/Career';
 import Home from './components/home/Home';
 import Slidebar from './components/slideBar/Slidebar';
 
@@ -15,6 +16,9 @@ function App() {
         <div className='homediv'>
          <Home/>
         </div>
+        </div>
+        <div className="myprojectsdiv">
+            <Career/>
         </div>
         <div className="myprojectsdiv">
             <Myprojects/>

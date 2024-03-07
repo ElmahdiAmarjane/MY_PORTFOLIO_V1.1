@@ -1,0 +1,71 @@
+.allCareer{
+  background: rgb(26,56,110);
+  background: linear-gradient(40deg, rgba(26,56,110,1) 10%, rgba(44,65,133,1) 60%, rgba(87,115,236,1) 100%);
+}
+
+.career-timeline {
+    position: relative;
+    margin: 50px auto;
+    width: 60%;
+    color: beige;
+    //background-color: #333;
+  }
+  .carrerTitleDiv h2{
+    color: beige;
+  }
+  
+  .vertical-line {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background-color: #333;
+    transform: translateX(-50%);
+  }
+  
+  // .career-item {
+  //   width: 80%;
+  //   opacity: 0;
+  //   transform: translateY(20px);
+  //   transition: opacity 0.5s ease, transform 0.5s ease;
+  //   margin-bottom: 100px;
+  //   color: beige;
+  //   //background-color: yellow;
+
+
+  // }
+  
+  .career-item.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+
+
+
+.carrerTitleDiv{
+     text-align: center;
+     margin-top: 20px;
+}
+
+.rightPartCareer{
+  //background-color: green;
+
+    // .career-item{
+    //   margin-left: auto;
+    //   margin-top: 200px;
+      
+    // }
+   
+
+}
+
+.leftPartCareer{
+ // background-color: blue;
+  // .career-item{
+  //   margin-bottom: 200px;
+    
+  // }
+  width: 50%;
+}

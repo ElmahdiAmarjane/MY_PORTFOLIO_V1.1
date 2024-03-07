@@ -18,7 +18,7 @@ function Slidebar() {
               <a href="#">Projects</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#">Career</a>
             </li>
           </ul>
         </nav>

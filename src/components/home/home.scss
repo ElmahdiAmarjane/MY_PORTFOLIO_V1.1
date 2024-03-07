@@ -1,50 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Caprasimo&family=Orbitron:wght@400..900&family=Rubik+Mono+One&display=swap');
+*{
+  
+}
 .homecontainerdiv{
      box-sizing: border-box;
-     width: 90%;
+     width: 100%;
      height: 100%;
-     position: absolute;
-    video{
-      width: 100%;
-        height: 100%;
-        object-fit: cover;
-        position: absolute;
-        filter: blur(1px);
-        
-    }
+      background-image: url("../../assets/images/bg1.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+   .infos{
+       display: flex;
+       background-color: #f8f8f805;
+       color: #f8f8f8b6;
+       justify-content: end;
+      padding-right: 10px;
+
+       p{
+         padding-left: 20px;
+       }
+   }
+   
     #developpertext{
         color: black;
-        -webkit-text-stroke: 1px yellow;
+        -webkit-text-stroke: 1px #989819;
         position: relative;
-        top: 140px;
+         top: 100px;
         text-align: center;
         font-family: "Rubik Mono One", monospace;
          font-weight: 400;
          font-style: normal;
          span{
-            color: yellow;
+            color: #989819;
             -webkit-text-stroke: 0px;
          }
-        
+       
     }
    
 }
 .myname {
-     position: relative;
-    z-index: 10;
-     top: 100px;
-    text-align: center;    
+   position: relative;
+    text-align: center; 
+    top: 80px;   
+   
+
   }
    .myname div{
-    display: flex;
+    display: block;
     justify-content: center;
+    width: fit-content;
+    margin: auto;
+  
   }
   .myname div h1 {
     font-family: "Rubik Mono One", monospace;
     font-weight: 400;
-    font-style: normal;
-     position: absolute;
-    
+    font-style: normal; 
   }
   
   .myname #h1_1 {
@@ -59,6 +70,9 @@
     -webkit-text-stroke: 1px #16c2d8;
     animation: animate 4s ease-in-out infinite;
     letter-spacing: 4px;
+   top: 0px;
+    position: absolute;
+
   }
   
   @keyframes animate {
@@ -91,4 +105,58 @@
       );
     }
   }
+.audioHello{
+  position: relative;
+  top: 180px;
+  text-align: center;
+
+    audio{
+       height: 30px;
+
+    }
+    audio source {
+
+    }
+
+    h4{
+      color: #ffffff;
+      padding-bottom: 20px;
+    }
+}
+.scrollMouse{
+     position: relative;
+    top: 230px;
+    text-align: center;
+    img{
+      width: 50px;
+      animation: moveForwardAndBack 4s linear infinite; /* Adjust duration as needed */
+
+    }
+    @keyframes moveForwardAndBack {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(50%);
+      }
+    }
+
+  }
+  
+ /* For Webkit (Chrome, Safari, Opera) */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6558be;
+  border-radius: 6px;
+}
+
+
+
   
