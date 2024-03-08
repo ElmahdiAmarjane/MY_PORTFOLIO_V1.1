@@ -1,0 +1,50 @@
+[
+    {
+        "left":true,
+        "event": "Bachelor of Science in Physical",
+        "date": "2021",
+        "location": "Oulad Teima",
+        "otherInfo": "Houara high school",
+        "img": "lyceehouara"
+    },
+    {
+       "left":false,
+        "event": "Higher Institute of Technology in Computer Engineering",
+        "date": "2021",
+        "location": "Essaouira",
+        "otherInfo": "EST ESSAOUIRA",
+        "img": "estessaouira"
+    },
+    {
+        "left":true,
+        "event": "Internship at Lafarge Holcim, Agadir Souss Plant (45 days).",
+        "date": "2022",
+        "location": "Agadir",
+        "otherInfo": "Lafarge Holcim",
+        "img": "meinlafarge"
+    },
+    {
+        "left":false,
+         "event": "Internship at STARTHINC SARL Company, Agadir.(2 months)",
+         "date": "2023",
+         "location": "Agadir",
+         "otherInfo": "A good experience",
+         "img": "starthinc"
+     },
+    {
+       "left":true,
+        "event": "Diploma in University Technology (DUT) in Essaouira",
+        "date": "2023",
+        "location": "Essaouira",
+        "otherInfo": "End-of-Studies Project (PFE) Day",
+        "img": "pfeessaouira"
+    },
+    {
+        "left":false,
+         "event": "Bachelor's degree in Information and Communication Systems Development(Licence Pro)",
+         "date": "2024 - NOW",
+         "location": "Meknes",
+         "otherInfo": "EST Meknes",
+         "img": "estmeknes"
+     }
+]

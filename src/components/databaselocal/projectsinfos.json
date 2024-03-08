@@ -1,0 +1,17 @@
+[
+    {
+     "image" : "stage1",
+     "type":"Application web",
+     "title":"MANAGE IT EQUIPMENT STOCK",
+     "description":"First app , manage computers, keyboroads,chargers , screens , HDDs , USBs ",
+     "technologies":["HTML5" , "CSS3" , "JAVASCRIPT"]
+   },
+   {
+    "image" : "stage1",
+    "type":"Application web",
+    "title":"MANAGE IT EQUIPMENT STOCK",
+    "description":"First app , manage computers, keyboroads,chargers , screens , HDDs , USBs ",
+    "technologies":["HTML5" , "CSS3" , "JAVASCRIPT"]
+  }
+
+]

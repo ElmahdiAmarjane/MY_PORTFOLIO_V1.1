@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Caprasimo&family=Orbitron:wght@400..900&family=Rubik+Mono+One&display=swap');
 *{
-  
+ 
 }
 .homecontainerdiv{
+     position: relative;
+     z-index: 100;
      box-sizing: border-box;
      width: 100%;
      height: 100%;
@@ -19,6 +21,7 @@
        p{
          padding-left: 20px;
        }
+       
    }
    
     #developpertext{
@@ -156,6 +159,7 @@
   background-color: #6558be;
   border-radius: 6px;
 }
+
 
 
 

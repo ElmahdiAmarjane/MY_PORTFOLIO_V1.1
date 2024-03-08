@@ -1,0 +1,35 @@
+
+
+
+.cardProject{
+    margin: 10px 0;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+    img{
+        border-radius: 5px; 
+        width: 100%;
+    }
+
+    .btnDiscover{
+          
+          text-decoration: none;
+          color: #a6ff00;
+          border: #a6ff00 1px solid;
+           height: 35px;
+           width : 80px;
+          border-radius: 2px;
+          background-color: #a6ff0000;
+          transition: 1s;
+       
+    }
+    .btnDiscover:hover{
+        background-color: #a6ff00;
+        color: #fff;
+        text-shadow: 2px 2px 4px #000000; 
+        border: #1d105f 1px solid ;
+     }
+ }
