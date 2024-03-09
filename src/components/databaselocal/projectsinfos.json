@@ -1,17 +1,38 @@
 [
     {
-     "image" : "stage1",
+     "image" : "lafargeproject",
      "type":"Application web",
      "title":"MANAGE IT EQUIPMENT STOCK",
      "description":"First app , manage computers, keyboroads,chargers , screens , HDDs , USBs ",
      "technologies":["HTML5" , "CSS3" , "JAVASCRIPT"]
    },
    {
-    "image" : "stage1",
-    "type":"Application web",
-    "title":"MANAGE IT EQUIPMENT STOCK",
-    "description":"First app , manage computers, keyboroads,chargers , screens , HDDs , USBs ",
-    "technologies":["HTML5" , "CSS3" , "JAVASCRIPT"]
+    "image" : "worldcupqatar",
+    "type":"WEB Application",
+    "title":"WORCL CUP QATAR 2022",
+    "description":"know results of match ; staduims infos , unsing API ",
+    "technologies":["HTML5" , "CSS3" , "JAVASCRIPT" , "AXIOS"]
+  },
+  {
+    "image" : "starthincinvoice",
+    "type":" WEB Application ",
+    "title":"Generate incoice Online Automaticlly",
+    "description":"know results of match ; staduims infos , unsing API ",
+    "technologies":["REACTJS" , "SASS" , "NODEJS" , "EXPRESS" , "POSTGRESQL"]
+  },
+  {
+    "image" : "netlogoproject",
+    "type":"Agent-based models",
+    "title":"Prediction AL7ARI9  ",
+    "description":"know results of match ; staduims infos , unsing API ",
+    "technologies":["Netlogo" , "Arduino C"]
+  },
+  {
+    "image" : "netlogoproject",
+    "type":"Agent-based models",
+    "title":"Prediction AL7ARI9  ",
+    "description":"know results of match ; staduims infos , unsing API ",
+    "technologies":["Netlogo" , "Arduino C"]
   }
 
 ]

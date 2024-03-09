@@ -32,4 +32,95 @@
         text-shadow: 2px 2px 4px #000000; 
         border: #1d105f 1px solid ;
      }
+
+
+     .card-title-{
+         color: #ffffff;
+     }
+     .card-body-{
+        .card-description{
+            
+       }
+         .card-description:hover{
+           color: #ffffff89;
+      }
+     }
+
+     .pictures{
+       
+        width: 100%;
+        height: 0;
+        
+        display: flex;
+        .picProjects{
+           // position: absolute;
+            background-color: #1d105f;
+            width:140px;
+            height: 140px;
+            opacity: 0;
+            transition:1s;
+        
+         }
+        
+     }
+     
  }
+
+
+
+ .cardProject:hover .picProjects{
+            
+    opacity: 1;
+
+}
+.cardProject:hover > .pictures{
+            
+    //height: 100px;
+
+}
+
+.pictures .pic1,
+    .pictures .pic2,
+    .pictures .pic3 {
+      transition: transform 0.5s ease-in-out, left 0.5s ease-in-out;
+      animation: rotateAnimation 2s infinite alternate;
+      box-shadow: 2px 10px 10px rgb(0, 0, 0);
+    }
+
+    @keyframes rotateAnimation {
+      0% {
+        
+        transform: rotateZ(35deg);
+      }
+      100% {
+        transform: rotateZ(-35deg);
+      }
+    }
+
+    .pictures .pic1 {
+       position: relative;
+      left:10px;
+    }
+
+    .pictures .pic3 {
+      position: relative;
+      left: -150px;
+    }
+
+    .pictures .pic2 {
+      position: relative;
+      left: -80px;
+    }
+
+
+
+
+
+    .pictures .pic1:hover ,
+    .pictures .pic3:hover,   
+    .pictures .pic2:hover{
+        z-index: 10;
+        
+        
+     }
+ 

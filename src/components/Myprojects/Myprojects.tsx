@@ -11,9 +11,7 @@ function Myprojects() {
         <div className="cards">
        
         <CardProject/>
-        <CardProject/>
-        <CardProject/>
-        <CardProject/>
+      
           
         </div>
       </div>
