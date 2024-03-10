@@ -16,13 +16,17 @@ function App() {
         <div className='homediv'>
          <Home/>
         </div>
-        </div>
         <div className="myprojectsdiv">
             <Career/>
         </div>
-        <div className="myprojectsdiv">
+        {/* <div className="myprojectsdiv">
             <Myprojects/>
+        </div> */}
+
+       
         </div>
+      
+       
          
          
     </div>
