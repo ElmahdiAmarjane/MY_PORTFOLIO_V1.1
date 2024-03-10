@@ -9,12 +9,13 @@ function Slidebar() {
 
 
   const [onphone, setOnPhone] = useState(false);
+  const [menuphoneshow , setmenuphoneshow]=useState(false);
 
   useEffect(()=> {
-     if(window.innerWidth < 500){
+     if(window.innerWidth < 600){
         setOnPhone(true);
      }
-     if(window.innerWidth > 500){
+     if(window.innerWidth > 600){
       setOnPhone(false);
    }
     
@@ -27,6 +28,7 @@ function Slidebar() {
     }
   };
   const openMenu = () => {
+    setmenuphoneshow(true);
     const menuphone = document.getElementById("menuphone");
     if (menuphone) {
       menuphone.style.display = "block";
@@ -62,8 +64,7 @@ function Slidebar() {
               />
             </div>
           </div>
-
-          <div className="menuphone" id="menuphone">
+       {menuphoneshow?<div className="menuphone" id="menuphone">
             <div
               onClick={() => {
                 closeMenu();
@@ -118,7 +119,8 @@ function Slidebar() {
              </div>
             </div>
             
-          </div>
+          </div>:null}
+          
         </>
       ) : (
         <div className="slidebarcontainer">

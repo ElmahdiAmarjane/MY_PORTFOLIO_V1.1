@@ -48,7 +48,6 @@ const Career = ()=>{
         <div className="career-timeline">
           <div style={{display:"flex",justifyContent:"space-between",}}>
           <div className="vertical-line" id="vertical-line"></div>
-          <div className="vertical-point"></div>
           <div className="leftPartCareer">
       {
      

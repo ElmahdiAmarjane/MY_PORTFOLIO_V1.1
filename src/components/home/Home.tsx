@@ -14,7 +14,7 @@ const Home=()=>{
           <h1 id="h1_1">AMARJANE&nbsp;ELMAHDI</h1>
           <h1 id="h1_2">AMARJANE&nbsp;ELMAHDI</h1>
         </div>
-      </div>
+      </div> 
       
       <h4 id="developpertext"><span>&lt;</span>WEB DEVELOPER<span>/&gt;</span></h4>
        <div className="audioHello">

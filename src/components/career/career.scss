@@ -6,7 +6,7 @@
     margin: 50px auto;
     width: 60%;
     color: beige;
-    //background-color: #333;
+   // background-color: #333;
   }
   .carrerTitleDiv h2{
     color: beige;
@@ -99,4 +99,25 @@
 .hrincareer{
     color: #a6ff00;
     
+}
+
+
+// Media Screen ::: 
+///////////////////
+/// /////////////////
+/// ///////////////////
+@media screen and (max-width: 600px) {
+  .allCareer{
+   
+  .career-timeline {
+   //   position: relative;
+      margin: 0px auto;
+      width: 100%;
+      color: beige;
+     // background-color: #333;
+    }
+  }
+ 
+
+
 }

@@ -53,3 +53,68 @@
         border-image-slice: 1; /* Use '1' to slice the border evenly */
            
 }
+// Media Screen ::: 
+///////////////////
+/// /////////////////
+/// ///////////////////
+@media screen and (max-width: 500px) {
+ 
+   .cardItem {
+      //background-color: #c04848;
+      width: 90%;
+      padding: 10px;
+      height: fit-content;
+ 
+      margin: auto;
+     // background: linear-gradient(to right, #cbbdbd, #c221c2);
+      border: 2px solid transparent; /* Set the border width and make it transparent */
+      border-image: linear-gradient(to right, #353542, #ffffff29);
+      border-image-slice: 1; /* Use '1' to slice the border evenly */
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+     transition: 1s;
+      
+     .career-item{
+        width: 100%;
+ 
+        .careerdivflex{
+         display: flex;
+          img{
+             width: 20px;
+             height: 20px;
+             margin: 5px;
+          }
+ 
+          
+        }
+ 
+        .date{
+           font-size: x-large; 
+           font-weight: 700;
+          
+           background: linear-gradient(to right, #c04848, #480048);
+           -webkit-background-clip: text; /* For older WebKit browsers */
+           background-clip: text;
+           color: transparent;
+        }
+        .title{
+         font-size: medium; 
+         font-weight: 500;
+     }
+      .infos{
+          margin: 0;
+      }
+        
+     }
+ 
+ }
+ 
+ .cardItem:hover{
+    
+   transform: scale(1.09) rotateZ(0deg), ; /* Increase the scale value as needed */
+   border-image: linear-gradient(to right, #f9f9f9, #ffffffb8);
+   border-image-slice: 1; /* Use '1' to slice the border evenly */
+      
+}
+
+
+}
