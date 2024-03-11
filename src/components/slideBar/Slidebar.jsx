@@ -14,7 +14,7 @@ function Slidebar() {
 
       if (isOnPhone !== onphone) {
         setOnPhone(isOnPhone);
-        setmenuphoneshow(false)
+        setmenuphoneshow(false);
         // Reset the reloadTriggered flag when screen size is above 600 pixels
         if (isOnPhone) {
           reloadTriggered.current = false;
@@ -118,9 +118,32 @@ function Slidebar() {
                 </ul>
               </nav>
               <div className="barcontacticonsphonefooter">
-                <div className="barcontacticonsphone">
-                  {/* ... icons */}
-                </div>
+              <div className="barcontacticonsphone">
+              <a href="https://example.com" target="_blank">
+                <img
+                  src="./src/assets/icons/github1.png"
+                  className="bi-linkedin"
+                ></img>
+              </a>
+              <a href="https://example.com" target="_blank">
+                <img
+                  src="./src/assets/icons/linkedin1.png"
+                  className="bi-github"
+                ></img>
+              </a>
+              <a href="https://example.com" target="_blank">
+                <img
+                  src="./src/assets/icons/gmail.png"
+                  className="bi-gmail"
+                ></img>
+              </a>
+              <a href="https://example.com" target="_blank">
+                <img
+                  src="./src/assets/icons/whatsapp.png"
+                  className="bi-whatsapp"
+                ></img>
+              </a>
+            </div>
                 <div className="">
                   <h3>Amarjane Elmahdi 2024 *C</h3>
                 </div>
@@ -155,10 +178,32 @@ function Slidebar() {
           </div>
           <div className="barcontacticons">
             <div>
-              {/* ... icons */}
+              <a href="https://example.com" target="_blank">
+                <img
+                  src="./src/assets/icons/github1.png"
+                  className="bi-linkedin"
+                ></img>
+              </a>
+              <a href="https://example.com" target="_blank">
+                <img
+                  src="./src/assets/icons/linkedin1.png"
+                  className="bi-github"
+                ></img>
+              </a>
             </div>
             <div>
-              {/* ... icons */}
+              <a href="https://example.com" target="_blank">
+                <img
+                  src="./src/assets/icons/gmail.png"
+                  className="bi-gmail"
+                ></img>
+              </a>
+              <a href="https://example.com" target="_blank">
+                <img
+                  src="./src/assets/icons/whatsapp.png"
+                  className="bi-whatsapp"
+                ></img>
+              </a>
             </div>
           </div>
         </div>
