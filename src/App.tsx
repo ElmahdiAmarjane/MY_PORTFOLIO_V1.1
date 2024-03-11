@@ -2,7 +2,7 @@ import './App.scss'
 import Myprojects from './components/Myprojects/Myprojects';
 import Career from './components/career/Career';
 import Home from './components/home/Home';
-import Slidebar from './components/slideBar/Slidebar';
+import Slidebar from './components/slideBar/Slidebar.jsx';
 
 function App() {
    
@@ -10,7 +10,7 @@ function App() {
     return (
     <div className='appall' >
         <div className="appcontainer">
-        <div className='Slidebardiv'>
+        <div className='Slidebardiv'> 
          <Slidebar/>
         </div>
         <div className='homediv'>
