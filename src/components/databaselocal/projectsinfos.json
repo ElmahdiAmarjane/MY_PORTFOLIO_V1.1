@@ -21,18 +21,25 @@
     "technologies":["REACTJS" , "SASS" , "NODEJS" , "EXPRESS" , "POSTGRESQL"]
   },
   {
-    "image" : "netlogoproject",
+    "image" :"netlogopfe",
     "type":"Agent-based models",
     "title":"Prediction AL7ARI9  ",
     "description":"know results of match ; staduims infos , unsing API ",
     "technologies":["Netlogo" , "Arduino C"]
   },
   {
-    "image" : "netlogoproject",
-    "type":"Agent-based models",
-    "title":"Prediction AL7ARI9  ",
-    "description":"know results of match ; staduims infos , unsing API ",
-    "technologies":["Netlogo" , "Arduino C"]
+    "image" : "sipswift",
+    "type":"mobile app",
+    "title":"SipSwift mobile App reservation",
+    "description":"reserve and command 3assir from univirsite coffee",
+    "technologies":["kotlin" , "Android studio"]
+  },
+  {
+    "image" : "notejee",
+    "type":"web jakarta",
+    "title":"Manage notes JEE App",
+    "description":"Manage your notes",
+    "technologies":["JEE" , "reactJS"]
   }
 
 ]

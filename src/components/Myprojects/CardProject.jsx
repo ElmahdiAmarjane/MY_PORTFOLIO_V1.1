@@ -31,8 +31,10 @@ const CardProject = () => {
             {pr.description}
           </p>
         </div>
-
+        <div className="btnDiscoverDiv">
         <button className="btnDiscover">Discover</button>
+        </div>
+       
       </div>
     </div>
 
