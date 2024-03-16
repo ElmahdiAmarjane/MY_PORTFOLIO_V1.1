@@ -1,8 +1,9 @@
 
 
 .allprojects{
-     background-color: black;
-     position: relative;
+     background-color: #002020;
+
+position: relative;
      width: 100%;
      
      
@@ -19,5 +20,72 @@
    
      
    }
+   .discovermore{
+        height: 200px;
+        background-color: #a29e9e;
+        color: #002020;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        img{
+           width: 200px;
+        }
+        @keyframes tipsy {
+          0% {
+            transform:  rotate(0deg);
+          }
+          100% {
+            transform:  rotate(2deg);
+          }
+        }
+        
+      
+        
+        h3{
+          color: #fffbf1;
+          text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;
+          font-size: 30px;
+          font-weight: bold;
+         
+     
+        }
+        
+        h3:after {
+          content: '';
+          width: 100%;
+          display: block;
+          border: 5px solid #92e113;
+          transform:  rotate(0deg);
+          animation: 5s infinite alternate ease-in-out tipsy;
+        }
+       
+        
+        h3:after {
+          border-color: rgba(0, 0, 0, 0) #e17613 #e17613 #e17613;
+          box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
+        }
+   }
+
+
+
+
    
+}
+
+@media screen and (max-width: 600px) {
+.allprojects{
+      .discovermore{
+         display: flex;
+         text-align: center;
+
+         img{
+          width: 150px;
+         }
+         h3{
+          font-size: 20px;
+         }
+   }
+}
+
+
 }

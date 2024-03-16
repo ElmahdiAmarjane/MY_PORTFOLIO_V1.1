@@ -77,7 +77,7 @@ function Slidebar() {
             <div className="logodivphone">
               <img
                 id="logoimgphone"
-                src="./public/icons/logoamarjane.png"
+                src="./public/icons/me2circle.png"
                 alt="Logo"
               />
             </div>
@@ -157,7 +157,7 @@ function Slidebar() {
           <div className="logodiv">
             <img
               id="logoimg"
-              src="./public/icons/logoamarjane.png"
+              src="./public/icons/me2circle.png"
               alt="Logo"
             />
           </div>
