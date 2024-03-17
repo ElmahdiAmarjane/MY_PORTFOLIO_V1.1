@@ -31,8 +31,21 @@
 
     .logonavbar{
         width: 30%;
+        img{
+            width: 10%;
+            margin-left: 10px;
+        }
       
     }
     
   
+}
+
+
+@media screen and (max-width: 600px) {
+    .allnavbar{
+        display: none;
+    }
+
+
 }

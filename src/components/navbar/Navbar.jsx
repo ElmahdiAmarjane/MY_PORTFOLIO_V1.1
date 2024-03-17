@@ -1,5 +1,6 @@
 import React from "react";
 import "./navbar.scss"
+import mypic from "../../../public/icons/me2circle.png"
 const Navbar = () =>{
 
 
@@ -8,7 +9,7 @@ const Navbar = () =>{
       return(
           <div className="allnavbar">
                <div className="logonavbar">
-                  <p>AMARJANE</p>
+                  <img src={mypic} alt="" />
                </div>
                <div className="listnav">
                    <ul>

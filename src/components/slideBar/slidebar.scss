@@ -8,7 +8,6 @@
     height: 100vh;
     background-color: #282727;
     //position: absolute;
-     
 
     .logodiv{
         width: 100%;
@@ -71,17 +70,26 @@
     }
     .barcontacticons{
        div{
-          width: 60%;
+          width: 90%;
           margin: auto;
           display: flex;
           justify-content: space-between;
           a{
-            padding: 2px 0;
+            padding: 5px;
             
+            svg{
+
+              fill: #ffffff;
+              
+            }
+            svg:hover{
+
+                
+                fill: #61f114;
+
+              }
           }
-        img{
-          width: 24px;
-        }
+      
        }
         
 
@@ -103,17 +111,17 @@
   align-items: center;
   
   .logodivphone{
-   // background-color: #61f114;
+      //background-color: #61f114;
       width: 30%;
       height: 100%;
        top: 0;
        position: static;
       #logoimgphone{
-       width: 90%;
+       width: 30%;
        height: 90%;
-        position: static;
-        top: 0px;
-        left: 0px;
+        position: relative;
+        top: 3px;
+        left: 10px;
         transform: translate(0, 0);
         animation: moveLogo 2s infinite alternate; /* Use the moveLogo animation */
       
